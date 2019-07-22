@@ -1,0 +1,112 @@
+2019-07-22 19:28:16,304 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 19:28:16,518 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 19:52:57,328 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 19:52:57,474 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:16:14,893 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:16:15,011 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:42:34,626 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:42:34,726 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:43:53,834 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:43:54,170 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:51:41,751 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:51:41,932 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:57:01,880 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 20:57:01,986 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 21:02:56,095 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-22 21:02:56,208 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 31, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true

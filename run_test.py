@@ -18,3 +18,4 @@ with open(constants.reports_html, 'wb+') as file:
                                               description='测试结果',
                                               tester='范震')
     runner.run(discover)  # 执行查找到的用例
+

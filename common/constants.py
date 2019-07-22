@@ -12,9 +12,8 @@ case_file = os.path.join(datas_dir, 'cases.xlsx')
 # print(datas_dir)
 
 reports_dir = os.path.join(base_dir, 'reports')  # reports文件夹路径
-# reports_html = os.path.join(reports_dir, 'reports.html')  # reports文件夹路径
-now = time.strftime("%Y%m%d%H%M%S")
-report_name =  'reports_{}.html'.format(now)
+now = time.strftime("%Y-%m-%d-%H_%M_%S")
+report_name = reports_dir + '/report_' + now + '.html'
 reports_html = os.path.join(reports_dir,report_name)
 # print(reports_html)
 
