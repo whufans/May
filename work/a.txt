@@ -1,33 +1,53 @@
 {
-	"Archive": {
-		"caseCause": "1101",
-		"caseId": "awacdea",
-		"EvidenceTypes": {
-			"220301": [{
-				"contResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqASCnQAAAIxUN8_ck.engine",
-				"elleResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAXNXoAAADo4skYMQ.engine",
-				"evidenceId": "5c2772a2-cd5f-48f4-9d7d-a25dc40b8f1c",
-				"name": "现场辨认笔录",
-				"ocrResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAfyeGAAJ640lT0ic.engine",
-				"otherKey": "控"
-			}],
-			"220501": [{
-				"contResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAKMPdAAAH28h_mbs.engine",
-				"elleResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqALFrDAAAE-pCRmWo.engine",
-				"evidenceId": "8ae6b595-f196-4e14-9dd6-2258bf185aae",
-				"name": "现场辨认笔录",
-				"ocrResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAINjRAAIj9s3HtzY.engine",
-				"otherKey": "11"
-			}],
-			"220001": [{
-				"contResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAW2lUAAABUMWmkVc.engine",
-				"elleResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAGR1NAAAAEoCbJx8.engine",
-				"evidenceId": "4479da8c-5d74-4818-a6c5-4a733a9f2986",
-				"name": "图片证据",
-				"ocrResult": "http://172.31.98.187:88/G1/M00/31/D0/rB9iu10UFcqAYdhfAABrCcHrmCE.engine",
-				"otherKey": "控告"
-			}]
-		},
-		"caseType": "11"
-	}
+  "code": "1",
+  "message": "检验完成！",
+  "total": 0,
+  "rows": [
+    {
+      "caseId": "ewfaeswf",
+      "flawList": [
+        {
+          "ruleId": "c35663e265104eb58346c7846e7de9b4",
+          "conditionId": "ebb5112e9b1d4a68a022ce73e4ed6197",
+          "conResult": "缺失辨认人签名、注明日期",
+          "conMessage": "判断辨认笔录是否缺失辨认人签名、注明日期",
+          "page": [
+            2
+          ],
+          "location": [
+            {
+              "w": 1646,
+              "x": 0,
+              "h": 1169,
+              "y": 1169
+            }
+          ]
+        }
+      ],
+      "evidenceId": "1a5d514d-e4d7-49db-b130-a6212d4a00d5"
+    },
+    {
+      "caseId": "ewfaeswf",
+      "flawList": [
+        {
+          "ruleId": "80cf27691b014f6990fd04e9e5940e21",
+          "conditionId": "e3fcf4b02768491aa128b8a4a973b82f",
+          "conResult": "缺失辨认人捺印",
+          "conMessage": "判断辨认笔录是否缺失辨认人捺印",
+          "page": [
+            2
+          ],
+          "location": [
+            {
+              "w": 1646,
+              "x": 0,
+              "h": 1169,
+              "y": 1169
+            }
+          ]
+        }
+      ],
+      "evidenceId": "1a5d514d-e4d7-49db-b130-a6212d4a00d5"
+    }
+  ]
 }

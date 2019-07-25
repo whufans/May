@@ -30,16 +30,6 @@ class sendEmail:
         message.attach(MIMEText('这是Python 邮件发送测试……', 'plain', 'utf-8'))
         message.attach(MIMEText(mail_msg, 'html', 'utf-8'))
 
-        证据校验平台接口测试报告
-
-        测试人员: 范震
-
-        开始时间: 2019 - 07 - 22 21: 02:50
-
-        合计耗时: 0:00: 05.297864
-
-        测试结果: 共2，失败2，通过率 = 0.00 %
-
         # 构造附件1，传送当前目录下的 test.txt 文件
         att1 = MIMEText(open(html_path, 'rb').read(), 'base64', 'utf-8')
         att1["Content-Type"] = 'application/octet-stream'

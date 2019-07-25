@@ -1,0 +1,66 @@
+config:
+    name: testcase description
+    base_url: http://192.168.84.171:9040
+    parameters:
+        - custName: [张一]
+        - var1-var2-var3: ${P(data/t0.csv)}
+        - var4-var5: ${func1()}
+    variables:
+        - {mobile: "${autoGenMobile()}"}
+        - {idno: "${autoGenIdNo()}"}
+        - {db: dbname}
+   "setup_hooks": [
+        "${setup_hook_prepare_kwargs($request)}",
+        "${setup_hook_httpntlmauth($request)}"
+    ],
+    "teardown_hooks": [
+        "${teardown_hook_sleep_N_secs($response, 2)}"
+    ]
+    output: [mobile]
+
+
+teststeps:
+-   name: /evidence-zfkh-web/login
+    request:
+        headers:
+            Content-Type: application/json; charset=UTF-8
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+            X-Requested-With: XMLHttpRequest
+        json:
+            password: e10adc3949ba59abbe56e057f20f883e
+            username: sfenju
+        method: POST
+        params:
+            time:  ${times()}
+        url: /evidence-zfkh-web/login
+    validate: [
+        {"eq":["status_code",200]},
+        {"eq":["headers.Content-Type","application/json;charset=UTF-8"]},
+        {"eq":["content.message","登录成功！"]},
+        {"eq":["content.code",'1']},
+        {"eq":["content.total",0]}
+    ]
+-   name: /evidence-zfkh-web/police/cases/listPolice
+    request:
+        headers:
+            Content-Type: application/json; charset=UTF-8
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+            X-Requested-With: XMLHttpRequest
+        json:
+            caseStatus: ''
+            currentPageNo: 1
+            keywords: ''
+            pageSize: 10
+        method: POST
+        params:
+            time: ${times()}
+        url: /evidence-zfkh-web/police/cases/listPolice
+    validate: [
+        {"eq":["status_code",200]},
+        {"eq":["headers.Content-Type","application/json;charset=UTF-8"]},
+        {"eq":["content.message",null]},
+        {"eq":["content.code",'1']},
+        {"eq":["content.total",308]}
+    ]

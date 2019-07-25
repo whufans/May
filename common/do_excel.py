@@ -44,6 +44,7 @@ class DoExcel:
             case.url = sheet.cell(row=r, column=4).value  # 取第r行，第4格的值
             case.data = sheet.cell(row=r, column=5).value  # 取第r行，第5格的值
             case.expected = sheet.cell(row=r, column=6).value  # 取第r行，第6格的值
+            case.extract = sheet.cell(row=r, column=9).value
             cases.append(case)  # 将case放到cases 列表里面
 
         return cases  # for 循环结束后返回cases列表
@@ -63,3 +64,5 @@ class DoExcel:
                 sheet.cell(r, 8).value = result  # 写入传进来的result到当前行的result列的单元格
                 self.workbook.save(filename=self.file_name)
                 break
+
+

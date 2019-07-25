@@ -1,0 +1,112 @@
+{
+    "teststeps": [
+        {
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json;charset=UTF-8"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "登录成功！"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        "1"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.total",
+                        0
+                    ]
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "json": {
+                    "username": "sfenju",
+                    "password": "e10adc3949ba59abbe56e057f20f883e"
+                },
+                "params": {
+                    "time": "1563866140071"
+                },
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36",
+                    "Content-Type": "application/json; charset=UTF-8",
+                    "X-Requested-With": "XMLHttpRequest"
+                },
+                "url": "http://192.168.84.171:9040/evidence-zfkh-web/login"
+            },
+            "name": "/evidence-zfkh-web/login"
+        },
+        {
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json;charset=UTF-8"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        null
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        "1"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.total",
+                        308
+                    ]
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "json": {
+                    "keywords": "",
+                    "currentPageNo": 1,
+                    "pageSize": 10,
+                    "caseStatus": ""
+                },
+                "params": {
+                    "time": "1563866141109"
+                },
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36",
+                    "Content-Type": "application/json; charset=UTF-8",
+                    "X-Requested-With": "XMLHttpRequest"
+                },
+                "url": "http://192.168.84.171:9040/evidence-zfkh-web/police/cases/listPolice"
+            },
+            "name": "/evidence-zfkh-web/police/cases/listPolice"
+        }
+    ],
+    "config": {
+        "variables": {},
+        "name": "testcase description"
+    }
+}

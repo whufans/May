@@ -1,0 +1,62 @@
+2019-07-25 16:29:31,144 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 33, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-25 16:33:10,382 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 33, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-25 16:35:03,215 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 33, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-25 16:39:48,807 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 33, in test_login
+    self.assertTrue(My_assertion.my_assert(case.expected,resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-25 16:44:36,652 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 33, in test_login
+    self.assertTrue(My_assertion.my_assert(eval(case.expected),resp_str))
+  File "C:\Python34\lib\unittest\case.py", line 657, in assertTrue
+    raise self.failureException(msg)
+AssertionError: False is not true
+2019-07-25 16:46:21,048 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(eval(case.expected),resp_str)
+  File "C:\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: {'code': '1', 'rows': [], 'message': '检验完成！', 'total': 0} != '{\n    "code": "1",\n    "rows": [],\n  [36 chars]"\n}'
+2019-07-25 16:47:44,372 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(eval(case.expected),resp_str)
+  File "C:\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: {'message': '检验完成！', 'rows': [], 'code': '1', 'total': 0} != '{\n    "code": "1",\n    "rows": [],\n  [36 chars]0\n}'
+2019-07-25 16:48:40,730 - ERROR - logger.py[:74] - 测试失败
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\May\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(eval(case.expected),resp_str)
+  File "C:\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: {'code': '1', 'total': 0, 'message': '检验完成！', 'rows': []} != '{\n    "code": "1",\n    "total": 0,\n  [36 chars]]\n}'
