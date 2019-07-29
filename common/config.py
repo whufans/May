@@ -19,6 +19,8 @@ class ConfigLoader:
             test = os.path.join(constants.configs_dir, 'test.conf')
             self.conf.read(filenames=test,encoding='utf-8')
 
+    def get_section(self,section):
+        return   dict(self.conf.items(section))
 
     def get(self, section, option): # 返回str类型的值
         # 根据section，option 来取到配置的值
@@ -38,3 +40,7 @@ class ConfigLoader:
 
     def hasoption(self, section ,option):
         return self.conf.has_option(section ,option)
+if __name__ == '__main__':
+    conf =ConfigLoader()
+    print(conf.get_section('basic'))
+

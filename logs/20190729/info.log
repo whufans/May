@@ -1,0 +1,44 @@
+2019-07-29 09:54:40,108 - INFO - logger.py[:69] - 测试用例名称：判断讯问笔录是否缺失被讯问人现住址
+2019-07-29 09:54:40,120 - INFO - logger.py[:69] - 测试用例数据：{"Archive":{"caseCause":"1101","caseId":"zsgzesg","EvidenceTypes":{"220301":[{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAWDwrAAAFzyHQhdc.engine","elleResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eADQ6DAAAAEoCbJx8.engine","evidenceId":"1649b7fa-c4fe-4a04-b7f2-3d597bc4c364","name":"证据一","ocrResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAEuCSAAGGCpTJRL4.engine"},{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAWDwrAAAFzyHQhdc.engine","elleResult":"http://172.31.234.149:88/G1/M00/08/AC/rB_qlVy1cyyAP9sHAAAAEoCbJx8.engine","evidenceId":"1649b7fa-c4fe-4a04-b7f2-3d597bc4c365","name":"证据二","ocrResult":"http://172.31.234.149:88/G1/M00/0C/76/rB_qlVy5gM-ADj9dAAOMu_N3n_I.engine"}],"220501":[{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAKeDFAAACCHRF93Q.engine","elleResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAa5anAAAAEoCbJx8.engine","evidenceId":"ad278629-c7f7-4467-8cba-3ff7577bb4f0","name":"证据三","ocrResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAPPQGAABx-KB4H7M.engine"}]},"caseType":"11"}}
+2019-07-29 09:54:50,680 - INFO - logger.py[:69] - status_code:200
+2019-07-29 09:54:50,681 - INFO - logger.py[:69] - 测试用例预期结果：{
+    "total": 0,
+    "message": "检验完成！",
+    "code": "1",
+    "rows": []
+}
+2019-07-29 09:54:50,682 - INFO - logger.py[:69] - 测试用例响应结果：{'total': 0, 'rows': [], 'code': '1', 'message': '检验完成！'}
+2019-07-29 09:54:50,683 - INFO - logger.py[:69] - 测试成功
+2019-07-29 09:54:50,784 - INFO - logger.py[:69] - 测试用例名称：判断讯问笔录是否缺失被讯问人公民身份证号码
+2019-07-29 09:54:50,784 - INFO - logger.py[:69] - 测试用例数据：{"Archive":{"caseCause":"0","caseId":"1","EvidenceTypes":{"220301":[{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAWDwrAAAFzyHQhdc.engine","elleResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eADQ6DAAAAEoCbJx8.engine","evidenceId":"1649b7fa-c4fe-4a04-b7f2-3d597bc4c364","name":"检验完成！","ocrResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAEuCSAAGGCpTJRL4.engine"}]},"caseType":"11"}}
+2019-07-29 09:54:51,426 - INFO - logger.py[:69] - status_code:200
+2019-07-29 09:54:51,427 - INFO - logger.py[:69] - 测试用例预期结果：{
+    "total": 0,
+    "message": "检验完成！",
+    "code": "1",
+    "rows": []
+}
+2019-07-29 09:54:51,428 - INFO - logger.py[:69] - 测试用例响应结果：{'total': 0, 'rows': [], 'code': '1', 'message': '检验完成！'}
+2019-07-29 09:54:51,428 - INFO - logger.py[:69] - 测试成功
+2019-07-29 09:57:19,741 - INFO - logger.py[:69] - 测试用例名称：判断讯问笔录是否缺失被讯问人现住址
+2019-07-29 09:57:19,741 - INFO - logger.py[:69] - 测试用例数据：{"Archive":{"caseCause":"1101","caseId":"zsgzesg","EvidenceTypes":{"220301":[{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAWDwrAAAFzyHQhdc.engine","elleResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eADQ6DAAAAEoCbJx8.engine","evidenceId":"1649b7fa-c4fe-4a04-b7f2-3d597bc4c364","name":"证据一","ocrResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAEuCSAAGGCpTJRL4.engine"},{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAWDwrAAAFzyHQhdc.engine","elleResult":"http://172.31.234.149:88/G1/M00/08/AC/rB_qlVy1cyyAP9sHAAAAEoCbJx8.engine","evidenceId":"1649b7fa-c4fe-4a04-b7f2-3d597bc4c365","name":"证据二","ocrResult":"http://172.31.234.149:88/G1/M00/0C/76/rB_qlVy5gM-ADj9dAAOMu_N3n_I.engine"}],"220501":[{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAKeDFAAACCHRF93Q.engine","elleResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAa5anAAAAEoCbJx8.engine","evidenceId":"ad278629-c7f7-4467-8cba-3ff7577bb4f0","name":"证据三","ocrResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAPPQGAABx-KB4H7M.engine"}]},"caseType":"11"}}
+2019-07-29 09:57:24,882 - INFO - logger.py[:69] - status_code:200
+2019-07-29 09:57:24,882 - INFO - logger.py[:69] - 测试用例预期结果：{
+    "total": 0,
+    "message": "检验完成！",
+    "code": "1",
+    "rows": []
+}
+2019-07-29 09:57:24,883 - INFO - logger.py[:69] - 测试用例响应结果：{'rows': [], 'total': 0, 'code': '1', 'message': '检验完成！'}
+2019-07-29 09:57:24,884 - INFO - logger.py[:69] - 测试成功
+2019-07-29 09:57:24,924 - INFO - logger.py[:69] - 测试用例名称：判断讯问笔录是否缺失被讯问人公民身份证号码
+2019-07-29 09:57:24,924 - INFO - logger.py[:69] - 测试用例数据：{"Archive":{"caseCause":"0","caseId":"1","EvidenceTypes":{"220301":[{"contResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAWDwrAAAFzyHQhdc.engine","elleResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eADQ6DAAAAEoCbJx8.engine","evidenceId":"1649b7fa-c4fe-4a04-b7f2-3d597bc4c364","name":"检验完成！","ocrResult":"http://172.31.234.149:88//G1/M00/0C/0F/rB_qlVy4U3eAEuCSAAGGCpTJRL4.engine"}]},"caseType":"11"}}
+2019-07-29 09:57:24,997 - INFO - logger.py[:69] - status_code:200
+2019-07-29 09:57:24,998 - INFO - logger.py[:69] - 测试用例预期结果：{
+    "total": 0,
+    "message": "检验完成！",
+    "code": "1",
+    "rows": []
+}
+2019-07-29 09:57:24,998 - INFO - logger.py[:69] - 测试用例响应结果：{'rows': [], 'total': 0, 'code': '1', 'message': '检验完成！'}
+2019-07-29 09:57:24,998 - INFO - logger.py[:69] - 测试成功
